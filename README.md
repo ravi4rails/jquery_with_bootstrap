@@ -1,8 +1,6 @@
 # JqueryWithBootstrap
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/jquery_with_bootstrap`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+jquery_with_bootstrap gem is just a simple replacement for bootstrap-sass and jquery-rails gem. This gem will bundle both bootstrap and jquery in a single gem. 
 
 ## Installation
 
@@ -21,8 +19,15 @@ Or install it yourself as:
     $ gem install jquery_with_bootstrap
 
 ## Usage
+First convert your application.css into application.scss and add following line to this
+```scss
+@import "jquery_with_bootstrap";
+```
 
-TODO: Write usage instructions here
+Now add following line to your application.js
+```js
+//= require jquery_with_rails
+```
 
 ## Development
 
@@ -32,7 +37,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/jquery_with_bootstrap. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+Bug reports and pull requests are welcome on GitHub at https://github.com/ravi4rails/jquery_with_bootstrap. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
 
 ## License
 
@@ -40,4 +45,4 @@ The gem is available as open source under the terms of the [MIT License](https:/
 
 ## Code of Conduct
 
-Everyone interacting in the JqueryWithBootstrap project’s codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/[USERNAME]/jquery_with_bootstrap/blob/master/CODE_OF_CONDUCT.md).
+Everyone interacting in the JqueryWithBootstrap project’s codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/ravi4rails/jquery_with_bootstrap/blob/master/CODE_OF_CONDUCT.md).
