@@ -26,7 +26,7 @@ First convert your application.css into application.scss and add following line 
 
 Now add following line to your application.js
 ```js
-//= require jquery_with_rails
+//= require jquery_with_bootstrap
 ```
 
 ## Development
